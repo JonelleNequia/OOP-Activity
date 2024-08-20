@@ -1,0 +1,48 @@
+public class Arithmetic_Operator {
+	public static void main(String[] args) {
+		//Given Numbers
+		int num1 = 5;
+		int num2 = 10;
+		int num3 = 15;
+		int num4 = 20;
+		
+		//Ouput ng numbers
+		System.out.println("\t\t\u001B[32mVariable Values \u001B[0m");
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);			
+		System.out.println("num3 = " + num3);
+		System.out.println("num4 = " + num4 + "\n");
+
+		//Adding numbers
+		System.out.println("\t    \u001B[32mAdding Variable Values \u001B[0m");			
+		System.out.println("num1 + num2 = " + (num1 + num2));
+		System.out.println("num3 + num4 = " + (num3 + num4) + "\n");
+
+		//Subtracting Numbers
+		System.out.println("\t \u001B[32mSubtracting Variable Values \u001B[0m");
+		System.out.println("num1 - num2 = " + (num1 - num2));			
+		System.out.println("num3 - num4 = " + (num3 - num4));
+		System.out.println("\t\u001B[31mor\u001B[0m");
+		System.out.println("num2 - num1 = " + (num2 - num1));
+		System.out.println("num4 - num3 = " + (num4 - num3) + "\n");
+
+		//Multiplying Numbers
+		System.out.println("\t \u001B[32mMultiplying Variable Values \u001B[0m");
+		System.out.println("num1 * num2 = " + (num1 * num2));
+		System.out.println("num3 * num4 = " + (num3 * num4) + "\n");
+
+		//Dividing numbers
+		System.out.println("\t  \u001B[32mDividing Variable Values\u001B[0m");
+		System.out.println("num2 / num1 = " + (num2 / num1));
+		System.out.println("num4 / num3 = " + (num4 / num3) + "\n");
+
+		//kuhanin ang remainder
+		System.out.println("\t \t  \u001B[32mModulus\u001B[0m");
+		System.out.println("num1 % num2 = " + (num1 %num2));
+		System.out.println("num3 % num4 = " + (num3 %num4));
+		System.out.println("\t\u001B[31mor\u001B[0m");
+		System.out.println("num2 % num1 = " + (num2 %num1));
+		System.out.println("num4 % num3 = " + (num4 %num3));
+		
+	}
+}
