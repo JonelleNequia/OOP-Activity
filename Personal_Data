@@ -1,0 +1,37 @@
+public class Personal_Data {
+	public static void main(String[] args) {
+		System.out.println("\t \u001B[1m\u001B[32mPersonal Data\u001B[0m");
+		
+		// My name
+		System.out.print("\u001B[1m\u001B[36mName: \u001B[0m");
+		System.out.println("Jonelle Veloria Nequia");
+		
+		//My address
+		System.out.print("\u001B[1m\u001B[36mAdress: \u001B[0m");
+		System.out.println("Dikeside, Dize, Bautista, Pangasinan");
+		
+		//My Age
+		System.out.print("\u001B[1m\u001B[36mAge: \u001B[0m");
+		System.out.println(19);
+		
+		//My Course
+		System.out.print("\u001B[1m\u001B[36mCourse: \u001B[0m");
+		System.out.println("BS in Information Technology");
+		
+		//Year ko sa College
+		System.out.print("\u001B[1m\u001B[36mYear: \u001B[0m");
+		System.out.println("2nd");
+		
+		//CP # ko
+		System.out.print("\u001B[1m\u001B[36mCellphone number: \u001B[0m");
+		System.out.println("09812537710");
+		
+		//My satatus
+		System.out.print("\u001B[1m\u001B[36mStatus: \u001B[0m");
+		System.out.println("Single");
+		
+		//lastly My skills
+		System.out.print("\u001B[1m\u001B[36mSkills: \u001B[0m");
+		System.out.println("Problem Solver / Designer");
+	}
+}
